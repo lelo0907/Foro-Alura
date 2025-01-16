@@ -21,7 +21,7 @@ Este proyecto es una API desarrollada con **Spring Boot** y **PostgreSQL** para 
 spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
-jwt.secret=clave_secreta_con_más_de_32_caracteres
+jwt.secret=clave_secreta_con_más_de_32_caracteres```
 
 ## Funcion
 

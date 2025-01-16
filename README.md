@@ -17,11 +17,11 @@ Este proyecto es una API desarrollada con **Spring Boot** y **PostgreSQL** para 
 - **PostgreSQL** configurado con una base de datos llamada `postgres`
 - Configurar las propiedades en el archivo `application.properties` con las credenciales de tu base de datos y el secreto JWT:
 
-```properties
+## properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
-jwt.secret=clave_secreta_con_más_de_32_caracteres```
+jwt.secret=clave_secreta_con_más_de_32_caracteres
 
 ## Funcion
 
